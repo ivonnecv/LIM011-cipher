@@ -1,15 +1,107 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+   <title> SANAMAX </title>
+ </head>
+ <body>
+   <main class="container">
+
+     <section id="seccion0" class="">
+       <div class="col">
+         <button id="inicio" name="button">INICIO</button>
+         <button id="nosotros" name="button">NOSOTROS</button>
+         <button id="sedes" name="button">SEDES</button>
+         <button id="examenes" name="button">EXAMENES</button>
+         <button id="resultadolab" name="button">RESULTADOS</button>
+       <div class="row">
+         <h1>SANAMAX</h1>
+       </div>
+       </div>
+     </section>
+
+
+     <section id="seccion1" class="section-hide">
+       <div class="row">
+         <h1> SANAMAX </h1>
+         <h2>¡Bienvenido!</h2>
+       </div>
+       <div class="row">
+         <input id="fullname" type="text" name="fullname" value="">
+         <p>Ingresa tu nombre completo</p>
+       </div>
+       <div class="row">
+         <input id="offset" type="number" name="offset" value="" min="1" max="200">
+         <p>Por motivos de seguridad y confidencialidad; <br/>selecciona un número</p>
+       </div>
+       <div class="row">
+         <button  id="cifradotype" name="button">CIFRAR <br/>(Código encriptado)</button>
+       </div>
+     </section>
+
+     <section id="seccion2" class="section-hide">
+       <div class="row">
+         <h1> SANAMAX </h1>
+         <h2>Este es tu código de seguridad encriptado</h2>
+       </div>
+       <div class="row">
+         <pre id="nombreEncriptado"></pre>
+         <button id="copiarCodigo" name="button">COPIAR CÓDIGO</button>
+       </div>
+       <div class="row">
+         <button id="resultados" name="button">SIGUIENTE</button>
+       </div>
+     </section>
+
+     <section id="seccion3" class="section-hide">
+       <div class="row">
+         <h1> SANAMAX </h1>
+         <h2>Transcribe o pega tu código de seguridad encriptado</h2>
+       </div>
+       <div class="row">
+         <input id="pegarCodigo" type="text" name="pegarCodigo" value="">
+       </div>
+       <div class="row">
+         <button id="accionPegarcodigo" name="button">PEGAR CÓDIGO</button>
+       </div>
+       <div class="row">
+         <button id="validar" name="button">VALIDAR <br/>(Descifrar código encriptado)</button>
+       </div>
+     </section>
+
+     <section id="seccion4" class="section-hide">
+       <div class="row">
+         <h1> SANAMAX </h1>
+         <pre id="decodeString"></pre>
+       </div>
+       <div class="row">
+         <h2>¿Es tu nombre completo?</h2>
+       </div>
+       <div class="col">
+           <button id="confirmar" name="button">Confirmar</button>
+           <button id="backHome" name="button">No es mi nombre correcto <br/> Regresar</button>
+       </div>
+     </section>
+
+     <section id="seccion5" class="section-hide">
+       <div class="row">
+         <h1> SANAMAX </h1>
+       </div>
+       <div class="row">
+         <h2> Hola name</h2>
+       </div>
+       <div class="row">
+         <h3>Informe de Laboratorio</h3>
+       </div>
+     </section>
+
+<!--prueba-->
+
+
+
+   </main>
+   <script type="text/javascript" src="index.js"></script>
+   <script type="text/javascript" src="cipher.js"></script>
+ </body>
 </html>
