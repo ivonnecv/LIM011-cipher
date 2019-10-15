@@ -2,13 +2,14 @@
 <html lang="en" dir="ltr">
  <head>
    <meta charset="utf-8">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
    <title> SANAMAX </title>
  </head>
  <body>
    <main class="container">
 
-     <section id="seccion0" class="secCero pad">
+     <section id="seccion0" class="secCero">
        <div class="col">
          <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -25,7 +26,7 @@
         <div class="home-banner">
           <div class="title-banner">
             <h1 class="h1-banner">SANAMAX</h1>
-            <h2 class="h2-banner">Laboratorio de Analisis Clinico</h2>
+            <h2 class="h2-banner">Laboratorio de Análisis Clinico</h2>
           </div>
         </div>
      </section>
@@ -34,18 +35,17 @@
      <section id="seccion1" class="section-hide pad" >
        <div class="row">
          <h1> SANAMAX </h1>
-         <h3>¡Bienvenido!</h3>
        </div>
        <div class="row">
-         <input id="fullname" type="text" name="fullname" value="">
+         <input id="fullname" type="text" class="inputName" name="fullname" value="">
          <p>Ingresa tu nombre completo</p>
        </div>
        <div class="row">
-         <input id="offset" type="number" name="offset" value="" min="1" max="50">
+         <input id="offset" type="number" class="inputOffset" name="offset" value="" min="1" max="50">
          <p>Por motivos de seguridad y confidencialidad <br/>Selecciona un número de 1 al 50</p>
        </div>
        <div class="row">
-         <button  id="cifradotype" name="button">CIFRAR <br/>(Código encriptado)</button>
+         <button  id="cifradotype" name="button" class="btnCipher">CIFRAR <br/>(Código encriptado)</button>
        </div>
      </section>
 
@@ -56,10 +56,10 @@
        </div>
        <div class="row">
          <pre id="nombreEncriptado"></pre>
-         <button id="copiarCodigo" name="button">COPIAR CÓDIGO</button>
+         <button id="copiarCodigo" name="button" class="btnCopy">COPIAR</button>
        </div>
        <div class="row">
-         <button id="resultados" name="button">SIGUIENTE</button>
+         <button id="resultados" name="button" class="btnNext">SIGUIENTE</button>
        </div>
      </section>
 
@@ -69,13 +69,13 @@
          <h3>Transcribe o pega tu código de seguridad encriptado</hh3>
        </div>
        <div class="row">
-         <input id="pegarCodigo" type="text" name="pegarCodigo" value="">
+         <input id="pegarCodigo" type="text" name="pegarCodigo" class="inputPaste" value="">
        </div>
        <div class="row">
-         <button id="accionPegarcodigo" name="button">PEGAR CÓDIGO</button>
+         <button id="accionPegarcodigo" name="button" class="btnPaste">PEGAR</button>
        </div>
        <div class="row">
-         <button id="validar" name="button">VALIDAR <br/>(Descifrar código encriptado)</button>
+         <button id="validar" name="button" class="validation">VALIDAR <br/>(Descifrar código encriptado)</button>
        </div>
      </section>
 
@@ -89,8 +89,8 @@
 
        </div> -->
        <div class="col">
-           <button id="confirmar" name="button">Confirmar</button>
-           <button id="backHome" name="button">No es mi nombre correcto <br/> Regresar</button>
+           <button id="confirmar" name="button" class="btnOk">Confirmar <br/>Ir a resultados</button>
+           <button id="backHome" name="button" class="btnBack">No es mi nombre correcto <br/> Regresar</button>
        </div>
      </section>
 

@@ -6,16 +6,14 @@
 /*Seccion 1*/
 
 .home-banner {
-  background-image: url('https://www.multilab.com.pe/img/banner-home.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 400px;
   position: relative;
-  border: solid green;
+  border: none;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  letter-spacing: 0px;
+  line-height: 16px;
 }
 
 .title-banner {
@@ -26,6 +24,10 @@
 
 body {
   margin: 0 !important;
+  background-image: url('https://www.multilab.com.pe/img/banner-home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
@@ -35,9 +37,6 @@ body {
   height: 100vh;
 }
 
-#seccion2 {
-  background-color: peru;
-}
 
 section {
   border: none;
@@ -45,11 +44,13 @@ section {
 
 h1 {
  text-align: center;
- font-family: 'Bree Serif', serif;
+ font-family: 'Roboto Slab', serif;
+ font-size: 45px;
 }
 
 h3 {
   text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 
 pre {
@@ -61,6 +62,10 @@ pre {
   font-size: 1.5em;
   background: #ececec;
   letter-spacing: 6px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
 }
 
 .section-hide {
@@ -82,8 +87,8 @@ pre {
 }
 
 #seccion1, #seccion2, #seccion3, #seccion4 {
-   background: #f6e58d;
-   height: 80vh;
+   background-color: transparent;
+   height: 150vh;
 }
 
 ul {
@@ -111,20 +116,111 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #22a6b3;
 }
 
 .h1-banner {
-  font-family: 'Bree Serif', serif;
-  font-size: xx-large;
+  font-family: 'Roboto Slab', serif;
+  font-size: 57px;
 }
 
 .h2-banner {
-  font-family: 'Bree Serif', serif;
-  font-size: large;
+  font-family: 'Roboto Slab', serif;
+  font-size: x-large;
 }
 
 .pad {
-  padding: 30px;
-  margin: 30px;
+  padding: 40px;
+  margin: none;
+}
+
+.inputName {
+  border-radius: 5px;
+  width: 38%;
+}
+
+.inputOffset {
+  border-radius: 5px;
+}
+
+.inputPaste {
+  border-radius: 5px;
+  width: 38%;
+}
+
+.btnCipher {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #22a6b3;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.btnCopy {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #6ab04c;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.btnNext {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #22a6b3;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.btnPaste {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #6ab04c;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.validation {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #22a6b3;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.btnOk {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #22a6b3;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
+}
+
+.btnBack {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #22a6b3;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  letter-spacing: 1px;
 }
