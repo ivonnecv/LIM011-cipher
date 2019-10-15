@@ -1,18 +1,43 @@
-seccion0 {
+#seccion0 {
+
+  height: 100vh;
+}
+
+/*Seccion 1*/
+
+.home-banner {
   background-image: url('https://www.multilab.com.pe/img/banner-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 400px;
+  position: relative;
+  border: solid green;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
+.title-banner {
+  /* bottom: 0; */
+  /* position: absolute; */
+  border: none;
+}
+
+body {
+  margin: 0 !important;
+}
 
 .container {
   width: 65%;
-  border: solid red;
+  /* border: solid red; */
   margin: 0 auto;
+  height: 100vh;
 }
 
+#seccion2 {
+  background-color: peru;
+}
 
 section {
   border: none;
@@ -20,6 +45,11 @@ section {
 
 h1 {
  text-align: center;
+ font-family: 'Bree Serif', serif;
+}
+
+h3 {
+  text-align: center;
 }
 
 pre {
@@ -37,28 +67,64 @@ pre {
   display: none;
 }
 
+.col {
+  text-align: center;
+}
+
+
+.row {
+  text-align: center;
+}
+
+
 #fullname, #pegarCodigo {
   text-transform: uppercase;
 }
 
 #seccion1, #seccion2, #seccion3, #seccion4 {
-  background: white;
+   background: #f6e58d;
+   height: 80vh;
 }
 
-/* #seccion1 {
-  background: orange;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-#seccion2 {
-  background: pink;
+li {
+  float: left;
 }
 
-#seccion3 {
-  background: brown;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-#seccion4 {
-  background: yellow;
-} */
+li a:hover:not(.active) {
+  background-color: #111;
+}
 
-/*prueba*/
+.active {
+  background-color: #4CAF50;
+}
+
+.h1-banner {
+  font-family: 'Bree Serif', serif;
+  font-size: xx-large;
+}
+
+.h2-banner {
+  font-family: 'Bree Serif', serif;
+  font-size: large;
+}
+
+.pad {
+  padding: 30px;
+  margin: 30px;
+}

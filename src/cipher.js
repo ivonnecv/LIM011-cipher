@@ -61,7 +61,7 @@ window.cipher = {
         }
           let decodeString = document.getElementById('decodeString');
             decodeString.innerHTML = nuevoMensaje;
-            console.log(nuevoMensaje);
+            // console.log(nuevoMensaje);
           return nuevoMensaje;
     }
 
