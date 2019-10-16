@@ -30,8 +30,7 @@ window.cipher = {
       }
 
       /*Unicamente para ver que valor imprime*/
-      let nombreEncriptado = document.getElementById('nombreEncriptado');
-      nombreEncriptado.innerHTML = nuevoMensaje;
+
 
       return nuevoMensaje;
   },
@@ -59,15 +58,10 @@ window.cipher = {
           nuevoMensaje = nuevoMensaje.concat(String.fromCharCode(cifrado));
 
         }
-          let decodeString = document.getElementById('decodeString');
-            decodeString.innerHTML = nuevoMensaje;
+
+
+
             // console.log(nuevoMensaje);
           return nuevoMensaje;
     }
-
-
-
-
-
-
-};
+  };
