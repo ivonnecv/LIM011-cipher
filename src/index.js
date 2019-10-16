@@ -68,5 +68,6 @@ location.reload();
 
   });
 
+
   //let decodeString = document.getElementById('decodeString');
   //  decodeString.innerHTML = nuevoMensaje;
