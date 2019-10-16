@@ -17,9 +17,8 @@
 }
 
 .title-banner {
-  /* bottom: 0; */
-  /* position: absolute; */
   border: none;
+  margin-left: 50px;
 }
 
 body {
@@ -51,6 +50,8 @@ h1 {
 h3 {
   text-align: center;
   font-family: 'Roboto Slab', serif;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 pre {
@@ -137,15 +138,18 @@ li a:hover:not(.active) {
 .inputName {
   border-radius: 5px;
   width: 38%;
+  padding: 7px;
 }
 
 .inputOffset {
   border-radius: 5px;
+  padding: 7px;
 }
 
 .inputPaste {
   border-radius: 5px;
   width: 38%;
+  padding: 7px;
 }
 
 .btnCipher {
@@ -157,39 +161,59 @@ li a:hover:not(.active) {
   color: #fff;
   transition: background-color .15s ease-in-out;
   letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.btnCipher:hover {
+    opacity: 0.7;
 }
 
 .btnCopy {
   font-family: 'Roboto Slab', serif;
-  font-size: 14px;
+  font-size: 15px;
   padding: .375rem .75rem;
   border-radius: .25rem;
   background-color: #6ab04c;
   color: #fff;
   transition: background-color .15s ease-in-out;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin: 30px;
+}
+
+.btnCopy:hover {
+  opacity: 0.7;
 }
 
 .btnNext {
   font-family: 'Roboto Slab', serif;
-  font-size: 14px;
+  font-size: 16px;
   padding: .375rem .75rem;
   border-radius: .25rem;
   background-color: #22a6b3;
   color: #fff;
   transition: background-color .15s ease-in-out;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  width: 23%;
+}
+
+.btnNext:hover {
+  opacity: 0.7;
 }
 
 .btnPaste {
   font-family: 'Roboto Slab', serif;
-  font-size: 14px;
+  font-size: 15px;
   padding: .375rem .75rem;
   border-radius: .25rem;
   background-color: #6ab04c;
   color: #fff;
   transition: background-color .15s ease-in-out;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin: 30px;
+}
+
+.btnPaste:hover {
+  opacity: 0.7;
 }
 
 .validation {
@@ -200,7 +224,11 @@ li a:hover:not(.active) {
   background-color: #22a6b3;
   color: #fff;
   transition: background-color .15s ease-in-out;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+.validation:hover {
+  opacity: 0.7;
 }
 
 .btnOk {
@@ -212,6 +240,12 @@ li a:hover:not(.active) {
   color: #fff;
   transition: background-color .15s ease-in-out;
   letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.btnOk:hover {
+  opacity: 0.7;
 }
 
 .btnBack {
@@ -223,4 +257,18 @@ li a:hover:not(.active) {
   color: #fff;
   transition: background-color .15s ease-in-out;
   letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.btnBack:hover {
+  opacity: 0.7;
+}
+
+.marginHome {
+  margin-right: 60px;
+}
+
+.preMargin, .btnCopy, .btnNext {
+  margin: 10px;
 }
