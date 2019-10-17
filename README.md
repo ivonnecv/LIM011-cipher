@@ -9,11 +9,11 @@ resultado de sus análisis. A través de una manera simple y segura.
 
 ## La imagen final de tu proyecto.
 
-![Imagen_final_Proyecto](/img/Screenshot_1.png)
+![Imagen](imagenes/Screenshot_1.png)
 
 ## Investigación UX:
 
-1. Explicar quiénes son los usuarios y los objetivos en relación con el
+## 1. Explicar quiénes son los usuarios y los objetivos en relación con el
    producto.
 
   Los usuarios son los pacientes que concurren el Laboratorio SANAMAX a
@@ -25,7 +25,7 @@ resultado de sus análisis. A través de una manera simple y segura.
   resultados via web de una manera rápida.
   El segundo, es que pueda acceder a sus resultados de una manera segura.
 
-2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+## 2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
    usuarios.
 
   El primero:
@@ -59,24 +59,24 @@ resultado de sus análisis. A través de una manera simple y segura.
   dar clic al boton confirmar; puede acceder a los resultados de sus
   análisis clínicos.
 
-3. Luego colocarás la foto de tu primer prototipo en papel.
+## 3. Luego colocarás la foto de tu primer prototipo en papel.
 
-    ![Primer_Prototipo](/img/Primer Prototipo - Papel.jpg)
+    ![ImagenP](imagenes/Prototipo_Papel_1.jpg)
 
-
-4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+## 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
     Hacer más amigable la home, con background y colores referentes a centros
     de salud.
     Frases cortas pero explicativas para el paciente en donde se tenga que
     llenar campos.
 
-5. Imagen del prototipo final.
-  ![Prototipo_1](/New Mockup 1.png)
-  ![Prototipo_2](/New Mockup 2.png)
-  ![Prototipo_3 ](/New Mockup 3.png)
-  ![Prototipo_4](/New Mockup 4.png)
-  ![Prototipo_5](/New Mockup 5.png)
+## 5. Imagen del prototipo final.
+
+  ![Imagen1](imagenes/New_Mockup_1.png)
+  ![Imagen2](imagenes/New_Mockup_2.png)
+  ![Imagen3](imagenes/New_Mockup_3.png)
+  ![Imagen4](imagenes/New_Mockup_4.png)
+  ![Imagen5](imagenes/New_Mockup_5.png)
 
   ## Objetivos de aprendizaje Cipher
   ​
