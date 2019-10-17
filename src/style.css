@@ -31,7 +31,6 @@ body {
 
 .container {
   width: 65%;
-  /* border: solid red; */
   margin: 0 auto;
   height: 100vh;
 }

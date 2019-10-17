@@ -9,7 +9,7 @@ let cifradotype = document.getElementById('cifradotype');
 let offset = document.getElementById('offset');
 let validar = document.getElementById('validar');
 let nombreEncriptado = document.getElementById('nombreEncriptado');
-let decodeString = document.getElementById('decodeString');
+let decodeString = document.getElementById('decodeString')
 
 var resultadolab = document.getElementById('resultadolab');
   resultadolab.addEventListener('click', function(){
@@ -39,7 +39,6 @@ var confirmarSiguiente = document.getElementById('confirmar');
   confirmarSiguiente.addEventListener('click', function(){
   four.classList.add('section-hide');
   five.classList.remove('section-hide');
-
 });
 
 document.getElementById('backHome').addEventListener('click', function(){
@@ -52,13 +51,30 @@ location.reload();
   cifradotype.addEventListener('click', function(){
     let fullname = document.getElementById('fullname');
     let offset = document.getElementById('offset');
+    let poner_nombre = document.getElementById('poner_nombre');
+
+    //Se inserta el nombre seteado al incio
+    poner_nombre.innerHTML = fullname.value.toUpperCase();
+
     nombreEncriptado.innerHTML = window.cipher.encode(fullname.value.toUpperCase(),parseInt(offset.value));
   });
-
+    document.getElementById('copiarCodigo').addEventListener('click', ()=>{
+      let nombreEncriptado = document.getElementById('nombreEncriptado');
+      navigator.clipboard.writeText(nombreEncriptado.value);
+  });
   /* ==================
    * Button Decode
    * ==================*/
   validar.addEventListener('click', function () {
     let pegarCodigo = document.getElementById('pegarCodigo');
     decodeString.innerHTML =window.cipher.decode(pegarCodigo.value.toUpperCase(), parseInt(offset.value));
+  });
+    document.getElementById('accionPegarcodigo').addEventListener('click', ()=>{
+      let pegarCodigo = document.getElementById('pegarCodigo');
+      pegarCodigo.value = '';
+
+      navigator.clipboard.readText()
+      .then((text)=>{
+        pegarCodigo.value = text;
+      });
   });
