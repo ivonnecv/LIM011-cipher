@@ -49,7 +49,6 @@ location.reload();
 /* ==================
  * Button Encode
  * ==================*/
-
   cifradotype.addEventListener('click', function(){
     let fullname = document.getElementById('fullname');
     let offset = document.getElementById('offset');
