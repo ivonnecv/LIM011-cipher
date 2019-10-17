@@ -10,8 +10,6 @@ let offset = document.getElementById('offset');
 let validar = document.getElementById('validar');
 let nombreEncriptado = document.getElementById('nombreEncriptado');
 let decodeString = document.getElementById('decodeString');
-//apunta al
-//var cifrado = document.getElementById('cifradotype');
 
 var resultadolab = document.getElementById('resultadolab');
   resultadolab.addEventListener('click', function(){
@@ -55,8 +53,7 @@ location.reload();
   cifradotype.addEventListener('click', function(){
     let fullname = document.getElementById('fullname');
     let offset = document.getElementById('offset');
-      nombreEncriptado.innerHTML = window.cipher.encode(fullname.value.toUpperCase(),parseInt(offset.value));
-
+    nombreEncriptado.innerHTML = window.cipher.encode(fullname.value.toUpperCase(),parseInt(offset.value));
   });
 
   /* ==================
@@ -65,9 +62,4 @@ location.reload();
   validar.addEventListener('click', function () {
     let pegarCodigo = document.getElementById('pegarCodigo');
     decodeString.innerHTML =window.cipher.decode(pegarCodigo.value.toUpperCase(), parseInt(offset.value));
-
   });
-
-
-  //let decodeString = document.getElementById('decodeString');
-  //  decodeString.innerHTML = nuevoMensaje;
